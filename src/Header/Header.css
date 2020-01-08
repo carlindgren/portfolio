@@ -1,0 +1,54 @@
+.Header {
+  display: block;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  height: 112px;
+  background-color: #262626;
+}
+.Header .logo {
+  position: absolute;
+  margin-top: 40px;
+  transform: rotate(-90deg);
+  font-size: 120px;
+  letter-spacing: -13px;
+}
+.Header .logo .C {
+  color: #f0b556;
+}
+.Header .logo .L {
+  color: aliceblue;
+}
+.Header .dev-text {
+  position: absolute;
+  font-size: 20px;
+  top: 70px;
+  letter-spacing: 0.21em;
+  font-weight: lighter;
+  margin-left: 110px;
+  color: #595959;
+  margin-top: 0px;
+}
+.Header ul *{
+  display: flex;
+  float: right;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  list-style-type: none;
+  text-decoration: none;
+}
+.Header ul li *{
+  margin-top: 70px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  letter-spacing: 1.5px;
+  transition: 0.3s ease;
+}
+.Header ul li:hover *{
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #f0b556;
+}
+
+/*# sourceMappingURL=header.css.map */
