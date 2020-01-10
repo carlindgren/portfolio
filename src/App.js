@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components'
 import {
   BrowserRouter as Router,
-  Switch,
   Route
 } from 'react-router-dom'
 //Components
@@ -14,7 +13,7 @@ import Skills from './PagesComponents/Skills/Skills'
 import Footer from './Footer/Footer.jsx'
 
 const StyledDiv = styled.div`
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
 `
