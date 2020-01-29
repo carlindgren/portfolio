@@ -11,6 +11,10 @@ const Container = styled.div`
     bottom: 0px;
     background-color:#3b3b3b;
     border-top:1px solid white;
+        @media (max-width: 768px){ 
+    flex-direction: column;
+    align-items: center;
+    }
     `
 const Contact = styled.div`
 color: white;
@@ -19,7 +23,6 @@ letter-spacing:1.2px;
 
 `
 const List = styled.ul`
-border:1px solid yellow;
 display:flex;
 flex-direction: column;
 list-style-type: none;

@@ -18,7 +18,8 @@ a {
   transition: ease 0.2s;
 }
 a:hover{
-  color: red;
+  color: #f0b556;
+  cursor:pointer
 }
 a:link {
   text-decoration: none;

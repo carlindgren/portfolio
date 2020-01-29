@@ -15,6 +15,11 @@ $secondary-color: #f0b556
         transform: rotate(-90deg)
         font-size: 120px
         letter-spacing: -13px
+        @media only screen and (max-width: 640px)
+            font-size: 80px
+            letter-spacing: -7px
+            margin-top: 30px
+        
         .C
             color: map-get($color,secondary)
         .L
@@ -28,9 +33,13 @@ $secondary-color: #f0b556
         margin-left: 110px
         color: #595959
         margin-top: 0px
+        @media only screen and (max-width: 640px)
+            top: 45px
+            
     ul
         display: flex
         flex-direction: row-reverse
+        justify-content: space-around
         float: right
         margin: 0
         padding: 0
@@ -51,3 +60,7 @@ $secondary-color: #f0b556
             transition: 0.3s ease
             &:hover
                 transform: scale(1.2)
+            @media only screen and (max-width: 640px) 
+                margin-top: 5px;
+                margin-right: 30px;
+                
