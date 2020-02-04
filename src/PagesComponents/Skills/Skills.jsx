@@ -43,6 +43,7 @@ border:1px solid grey;
 margin: 3% 3% 3% 3%;
 @media (max-width: 768px) {
     width: 150px;
+}
 `
 const Link = styled.a`
 color: aliceblue;
@@ -54,7 +55,7 @@ border:1px solid grey;
 margin: 3% 3% 3% 3%;
 @media (max-width: 768px) {
     width: 150px;
-
+}
 `
 
 const jsSkill = [{ 'skill': 'REACT' },

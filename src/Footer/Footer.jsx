@@ -38,7 +38,8 @@ const footer = () => {
                     <li>mail. Carlindgren@outlook.com</li>
                 </List>
             </Contact>
-            <Contact><p><a href="https://github.com/carlindgren" target="_blank">< FaGithub /> Github</a></p></Contact>
+            <Contact><p><a href="https://github.com/carlindgren" target="_blank" rel="noopener noreferer">< FaGithub /> Github</a></p></Contact>
+
         </Container>
     );
 }
